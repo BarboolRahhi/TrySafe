@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shadow_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="6dp"
+    android:elevation="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/postImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/coffee" />
+
+        <TextView
+            android:layout_below="@+id/postImage"
+            android:id="@+id/posttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:padding="4dp"
+            android:text="Morning Coffee"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_below="@+id/posttitle"
+            android:id="@+id/postAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="3"
+            android:paddingBottom="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="4dp"
+            android:text="After waking up in the morning, what’s the first thing on your mind? Caitlin Rogers, director of dining and nutrition services at Sunrise, says "
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

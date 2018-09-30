@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "900500345307",
+    "firebase_url": "https://trysafe-c5e98.firebaseio.com",
+    "project_id": "trysafe-c5e98",
+    "storage_bucket": "trysafe-c5e98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900500345307:android:5fad59e754830927",
+        "android_client_info": {
+          "package_name": "in.trysafe.trysafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900500345307-jgj7qu80mcpcgigug81ti0okftqil3vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.trysafe.trysafe",
+            "certificate_hash": "10d9074c2ceedacb511c5c27881bb6e7bcb85aaa"
+          }
+        },
+        {
+          "client_id": "900500345307-4p8mfbbnokphegm8nlqh9196c2m19djl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYYXaw9iZXGlCbyCOgVuByo4jNeZNRd2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900500345307-4p8mfbbnokphegm8nlqh9196c2m19djl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
